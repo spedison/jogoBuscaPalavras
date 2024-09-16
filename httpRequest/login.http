@@ -1,0 +1,17 @@
+### GET request to example server
+POST http://127.0.0.1:8080/teste/Login?meuTeste=1
+Content-Type: application/json
+Accept-Encoding: utf-8
+
+{
+  "usuario" : "spedison@gmail.com",
+  "senha" : "0123456789"
+}
+
+### GET request to example server
+GET http://127.0.0.1:8080/teste/RecebeNome?meuTeste=1&nome=Edison%20Araújo&idade=48
+Content-Type: application/json
+Accept-Encoding: utf-8
+
+###
+

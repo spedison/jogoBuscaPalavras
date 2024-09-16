@@ -1,0 +1,13 @@
+### GET request to example server
+POST http://127.0.0.1:8080/jogo/ResolveJogo
+Content-Type: application/json
+Accept-Encoding: utf-8
+
+{
+  "jogo" : [ "PASSEATAFYQMFPN", "KAIMUNDICEWDRUÇ", "BDSLEVADIÇADEZS", "OROCGDÉCIMOEIIF", "DJOCOEKQWEVSXNL", "IMFCEAKOCSTÍOQF",
+             "AODQHNMSMFOGCUF", "RKNIÇETSPRRNIIA", "OYTDRQREGERIGES", "AGRPUOAÇOGAOUTC", "LBURÃLBUAADAAIÍ", "KSOIÇUABUEAYLXN",
+             "DWVNRALRTSSYAHI", "EAHDOYHPODERREO", "GBADALOJROMARIA" ],
+  "palavrasParaProcurar" : [ "Abono", "Autor", "Fascinio", "Esfrega","Edison111" ],
+  "direcoes" : [ "VERTICAL", "HORIZONTAL", "INCLINADA_DECRESCENTE", "INCLINADA_CRESCENTE" ],
+  "sentidos" : [ "DIRETA", "INVERSA" ]
+}
